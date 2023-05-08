@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+                             http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="label" for="node" attr.name="label" attr.type="string"/>
+  <key id="direction" for="edge" attr.name="direction" attr.type="string"/>
+  <graph edgedefault="directed">
+    <node id="CAcc">
+      <data key="label">Create Account</data>
+    </node>
+    <node id="signin">
+      <data key="label">Sign In</data>
+    </node>
+    <node id="MP">
+      <data key="label">Main Page</data>
+    </node>
+    <node id="DB">
+      <data key="label">DashBoard</data>
+    </node>
+    <node id="create">
+      <data key="label">Create</data>
+    </node>
+    <node id="projects">
+      <data key="label">Projects</data>
+    </node>
+    <node id="YW">
+      <data key="label">Your Work</data>
+    </node>
+    <node id="people">
+      <data key="label">People</data>
+    </node>
+    <node id="filters">
+      <data key="label">Filters</data>
+    </node>
+    <node id="help">
+      <data key="label">Help</data>
+    </node>
+    <node id="accounts">
+      <data key="label">Accounts</data>
+    </node>
+    <node id="settings">
+      <data key="label">Settings</data>
+    </node>
+    <node id="apps">
+      <data key="label">Apps</data>
+    </node>
+    <node id="search">
+      <data key="label">Search</data>
+    </node>
+    <node id="notifi">
+      <data key="label">Notification</data>
+    </node>
+    <node id="CDB">
+      <data key="label">CDB</data>
+    </node>
+    <node id="VADB">
+      <data key="label">VADB</data>
+    </node>
+    <node id="CI">
+      <data key="label">CI</data>
+    </node>
+    <node id="CP">
+      <data key="label">CP</data>
+    </node>
+    <node id="VAPr">
+      <data key="label">VAPr</data>
+    </node>
+    <node id="recent">
+      <data key="label">Recent</data>
+    </node>
+    <node id="AsM">
+      <data key="label">AsM</data>
+    </node>
+    <node id="CT">
+      <data key="label">CT</data>
+    </node>
+    <node id="ITM">
+      <data key="label">ITM</data>
+    </node>
+    <node id="VAF">
+      <data key="label">VAF</data>
+    </node>
+    <node id="SeHAr">
+      <data key="label">SeHAr</data>
+    </node>
+    <node id="CSu">
+      <data key="label">CSu</data>
+    </node>
+    <node id="profile">
+      <data key="label">Profile</data>
+    </node>
+    <node id="MaAcc">
+      <data key="label">MaAcc</data>
+    </node>
+    <node id="logout">
+      <data key="label">Logout</data>
+    </node>
+    <node id="admin">
+      <data key="label">Admin</data>
+    </node>
+    <node id="js">
+      <data key="label">js</data>
+    </node>
+    <node id="pes">
+      <data key="label">pes</data>
+    </node>
+    <node id="explore">
+      <data key="label">Explore</data>
+    </node>
+    <node id="manage">
+      <data key="label">Manage</data>
+    </node>
+    <node id="VApR">
+      <data key="label">VApR</data>
+    </node>
+    <node id="watching">
+      <data key="label">Watching</data>
+    </node>
+    <node id="direct">
+      <data key="label">Direct</data>
+    </node>
+    <node id="OShoU">
+      <data key="label">OShoU</data>
+    </node>
+    <node id="JAccS">
+      <data key="label">JAccS</data>
+    </node>
+    <node id="AtAccS">
+      <data key="label">AtAccS</data>
+    </node>
+    <node id="planning">
+      <data key="label">Planning</data>
+    </node>
+    <node id="PrS">
+      <data key="label">PrS</data>
+    </node>
+    <node id="PrP">
+      <data key="label">PrP</data>
+    </node>
+    <node id="ASh">
+      <data key="label">ASh</data>
+    </node>
+    <node id="roadmap">
+      <data key="label">Roadmap</data>
+    </node>
+    <node id="backlog">
+      <data key="label">Backlog</data>
+    </node>
+    <node id="board">
+      <data key="label">Board</data>
+    </node>
+    <node id="dev">
+      <data key="label">Dev</data>
+    </node>
+    <node id="code">
+      <data key="label">Code</data>
+    </node>
+    
+    <edge source="CAcc" target="signin">
+      <data key="direction">down</data>
+    </edge>
+    <edge source="signin" target="MP">
+      <data key="direction">right</data>
+    </edge>
+    <edge source="MP" target-1="DB" target-2="creat" target-3="project" target-4="YW" target-5="people" target-6="filters"
+    target-7="help" target-8="accounts" target-9="settings" target-10="apps" target-11="serach" target-12="notifi">
+      <data key="direction">right</data>
+    </edge>
+    <edge source="DB" target-1="CDB" target-2="VADB">
+      <data key="direction">right</data>
+    </edge>
+    <edge source="create" target-1="CI">
+      <data key="direction">right</data>
+    </edge>
+    <edge source="project" target-1="CP" target-2="VAPr">
+      <data key="direction">right</data>
+    </edge>
+    <edge source="YW" target-1="recent" target-2="AsM" target-3="board">
+      <data key="direction">right</data>
+    </edge>
+    <edge source="people" target-1="CT" target-2="ITM">
+      <data key="direction">right</data>
+    </edge>
+    <edge source="filters" target-1="VAF">
+      <data key="direction">right</data>
+    </edge>
+    <edge source="help" target-1="SeHAr" target-2="CSu">
+      <data key="direction">right</data>
+    </edge>
+    <edge source="accounts" target-1="profile" target-2="MaAcc" target-3="logout" target-4="JAccS">
+      <data key="direction">right</data>
+    </edge>
+    <edge source="settings" target-1="admin" target-2="js" targe-3="pes">
+      <data key="direction">right</data>
+    </edge>
+    <edge source="apps" target-1="explore" target-2="manage" target-3="VApR">
+      <data key="direction">right</data>
+    </edge>
+    <edge source="notifi" target-1="Watching" target-2="direct" target-3="OShoU">
+      <data key="direction">right</data>
+    </edge>
+    <edge source="CP" target-1="Planning" target-2="PrS" target-3="Dev" target-4="PrP" target-5="ASh" target-6="CI">
+      <data key="direction">right</data>
+    </edge>
+    <edge source="pes" target-1="JAccS" target-2="AtAccS">
+      <data key="direction">right</data>
+    </edge>
+    <edge source="planning" target-1="roadmap" target-2="backlog" target-3="board">
+      <data key="direction">right</data>
+    </edge>
+    <edge source="dev" target-1="code">
+      <data key="direction">right</data>
+    </edge>
+    
+  </graph>
+</graphml>
